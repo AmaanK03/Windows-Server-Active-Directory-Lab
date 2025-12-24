@@ -18,3 +18,12 @@ This project documents the creation of a IT support home lab designed to simulat
 
 ## Project Breakdown
 
+### Step 1 – Active Directory Setup
+
+<img width="602" height="431" alt="Image" src="https://github.com/user-attachments/assets/966b16dc-ddbb-4ca1-9f35-09e1da36a0f4" />
+
+- Installed Active Directory Domain Services (AD DS) on Windows Server  
+- Promoted the server to a Domain Controller  
+- Created a new domain for the lab environment  
+
+Active Directory forms the foundation of the lab and enables centralised user management, authentication, and access control, which are core components of day-to-day IT support work.
