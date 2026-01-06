@@ -54,6 +54,31 @@ This simulates common helpdesk tasks such as onboarding new users and managing a
 
 This demonstrates an understanding of ongoing system maintenance, endpoint management, and the importance of keeping systems secure and up to date in a corporate IT environment.
 
+### File Shares, Permissions & Security Groups
+
+<img width="573" height="488" alt="Share configuration" src="https://github.com/user-attachments/assets/b1c1d9f6-86a5-4c5c-8f12-49620af0987c" />
+
+A shared folder was created on the server using SMB and managed through File and Storage Services. This confirms the folder is correctly shared and accessible to domain users over the network.
+
+---
+
+<img width="698" height="259" alt="Shared folder structure" src="https://github.com/user-attachments/assets/3b17ce85-606f-472f-a5aa-5782b4026aa7" />
+
+Within the shared folder, a clear structure was set up with separate folders for different departments. This keeps data organised and allows access to be managed at a departmental level.
+
+---
+
+<img width="698" height="342" alt="Security group membership" src="https://github.com/user-attachments/assets/63e1e835-50ea-43e5-bdea-bea1cc293c53" />
+
+Security groups were created in Active Directory and used to control access to the shared folders. Users were added to the appropriate groups rather than permissions being assigned directly to individual accounts.
+
+---
+
+<img width="698" height="360" alt="User access test" src="https://github.com/user-attachments/assets/6baae325-c8a3-42d2-8127-43c9023c0be7" />
+
+Access was tested by logging in as a standard domain user and mapping the shared drive. The user was able to access the correct folder and create files, confirming that permissions were applied correctly.
+
+
 ---
 
 ## 🚀 Next Steps
